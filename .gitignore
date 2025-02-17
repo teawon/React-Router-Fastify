@@ -1,0 +1,21 @@
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Study : !경로 예외규칙을 통해 위 요소들은 프로젝트의 일관성과 개발환경 설정을 위해 git에 올리는 듯 하다.
+
+
+# Swap the comments on the following lines if you wish to use zero-installs
+# In that case, don't forget to run `yarn config set enableGlobalCache false`!
+# Documentation here: https://yarnpkg.com/features/caching#zero-installs
+
+#!.yarn/cache
+.pnp.*
+
+dist
+.env
+
+node_modules
