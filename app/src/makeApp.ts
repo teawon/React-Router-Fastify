@@ -10,9 +10,9 @@ export async function makeApp() {
     logger: true,
   });
 
-  app.get("/", () => ({
-    message: "가보자고~~",
-  }));
+  // app.get("/", () => ({
+  //   message: "가보자고~~",
+  // }));
 
   /**
    * 플러그인을 등록(매번 register를 하지 않고 autoload플로그인을 활용한다.)
