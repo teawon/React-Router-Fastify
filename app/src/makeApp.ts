@@ -15,7 +15,7 @@ export async function makeApp() {
   }));
 
   /**
-   * 플러그인을 등록합니다
+   * 플러그인을 등록(매번 register를 하지 않고 autoload플로그인을 활용한다.)
    */
   await app.register(FastifyAutoload, {
     dir: path.resolve("./dist/plugins"),
